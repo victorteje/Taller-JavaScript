@@ -16,3 +16,6 @@ let divide = number / secondNumber;
 let secondMessage = "too young to learn JavaScript."
 let actualAge = message + secondMessage;
 
+console.log(math);
+console.log(age);
+console.log(actualAge);
