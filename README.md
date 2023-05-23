@@ -1,3 +1,3 @@
 # Taller-JavaScript
 
-A series of exercises to learn and practice the basics of JavaScript.
+Practicing the basics of JavaScript through a series of exercises.
