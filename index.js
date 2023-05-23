@@ -28,7 +28,19 @@ console.log(Greeting("Víctor"));
 
 function Addition (numberOne, numberTwo) {
     let result = numberOne + numberTwo;
-    return result;
+    return numberOne + " plus " + numberTwo + ' equals ' + result;
 }
 
 console.log(Addition(5, 2));
+
+// let evenOrOdd = prompt("Enter a number: ");
+
+// if (evenOrOdd % 2 == 0) {
+//     console.log("The number is even.");
+// }
+
+// else {
+//     console.log("The number is odd.");
+// }
+
+
