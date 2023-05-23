@@ -33,14 +33,14 @@ function Addition (numberOne, numberTwo) {
 
 console.log(Addition(5, 2));
 
-// let evenOrOdd = prompt("Enter a number: ");
+let evenOrOdd = 6;
 
-// if (evenOrOdd % 2 == 0) {
-//     console.log("The number is even.");
-// }
+if (evenOrOdd % 2 == 0) {
+    console.log("The number is even.");
+}
 
-// else {
-//     console.log("The number is odd.");
-// }
+else {
+    console.log("The number is odd.");
+}
 
 
