@@ -55,3 +55,16 @@ else {
     document.write("<br>The number " + evenOrOdd + " is odd.");
 }
 
+let car = {
+    brand: "Audi",
+    numberOfDoors: 4,
+    parts: ["Chassis", "Wheels", "Seats"],
+};
+
+console.log("The brand of this car is: " + car.brand);
+document.write("<br>The brand of this car is: " + car.brand);
+console.log("This car has " + car.numberOfDoors + " doors");
+document.write("<br>This car has " + car.numberOfDoors + " doors");
+console.log("A part of this car is: " + car.parts[0]);
+document.write("<br>A part of this car is: " + car.parts[0]);
+
