@@ -78,3 +78,15 @@ for (let i = 0; i < numArray.length; i++) {
 numArray.push ("10");
 console.log(numArray);
 document.write("<br>" + numArray);
+
+let oddNum = [];
+function removeEven () {
+    for (let i = 0; i < numArray.length; i++) {
+        if (numArray [i] %2 !== 0) oddNum.push(numArray[i]);
+}
+console.log(oddNum);
+document.write("<br>" + oddNum);
+}
+
+removeEven ();
+
