@@ -28,20 +28,20 @@ console.log("38 / 10 equals " + divide);
 document.write("<br>38 / 10 equals " + divide);
 
 
-function Greeting (name) {
+function greeting (name) {
     return "Hello " + name;
 }
 
-console.log(Greeting("dear reader"));
-document.write("<br>" + Greeting("dear reader"));
+console.log(greeting("dear reader"));
+document.write("<br>" + greeting("dear reader"));
 
-function Addition (numberOne, numberTwo) {
+function sum (numberOne, numberTwo) {
     let result = numberOne + numberTwo;
     return numberOne + " plus " + numberTwo + ' equals ' + result;
 }
 
-console.log(Addition(5, 2));
-document.write("<br>" + Addition(5, 2));
+console.log(sum(5, 2));
+document.write("<br>" + sum(5, 2));
 
 let evenOrOdd = 7;
 
@@ -68,4 +68,5 @@ document.write("<br>This car has " + car.numberOfDoors + " doors");
 console.log("A part of this car is: " + car.parts[0]);
 document.write("<br>A part of this car is: " + car.parts[0]);
 
-let numArray [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+let numArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+
