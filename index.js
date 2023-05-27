@@ -33,7 +33,7 @@ function Greeting (name) {
 }
 
 console.log(Greeting("Víctor"));
-document.write(Greeting("<br>Víctor"));
+document.write("<br>" + Greeting("Víctor"));
 
 function Addition (numberOne, numberTwo) {
     let result = numberOne + numberTwo;

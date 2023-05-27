@@ -1,7 +1,16 @@
+* {
+    text-align: center;
+    line-height: 2;
+}
+
 body {
     background-color: thistle;
 }
 
 h1 {
-    text-align: center;
+    background-color: navajowhite;
+    width: 15%;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 2%;
 }
