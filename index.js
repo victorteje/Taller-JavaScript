@@ -4,7 +4,7 @@ let age = message + number;
 console.log(age);
 document.write(age);
 
-let secondMessage = "Too young to learn JavaScript."
+let secondMessage = "Too young to learn JavaScript"
 let actualAge = message + secondMessage;
 console.log("On second thought... " + actualAge);
 document.write("<br>On second thought... " + actualAge);
@@ -29,11 +29,11 @@ document.write("<br>38 / 10 equals " + divide);
 
 
 function Greeting (name) {
-    return "Hello " + name + ".";
+    return "Hello " + name;
 }
 
-console.log(Greeting("Víctor"));
-document.write("<br>" + Greeting("Víctor"));
+console.log(Greeting("dear reader"));
+document.write("<br>" + Greeting("dear reader"));
 
 function Addition (numberOne, numberTwo) {
     let result = numberOne + numberTwo;
@@ -46,13 +46,13 @@ document.write("<br>" + Addition(5, 2));
 let evenOrOdd = 7;
 
 if (evenOrOdd % 2 == 0) {
-    console.log("The number " + evenOrOdd + " is even.");
-    document.write("<br>The number " + evenOrOdd + " is even.");
+    console.log("The number " + evenOrOdd + " is even");
+    document.write("<br>The number " + evenOrOdd + " is even");
 }
 
 else {
-    console.log("The number " + evenOrOdd + " is odd.");
-    document.write("<br>The number " + evenOrOdd + " is odd.");
+    console.log("The number " + evenOrOdd + " is odd");
+    document.write("<br>The number " + evenOrOdd + " is odd");
 }
 
 let car = {
@@ -68,3 +68,4 @@ document.write("<br>This car has " + car.numberOfDoors + " doors");
 console.log("A part of this car is: " + car.parts[0]);
 document.write("<br>A part of this car is: " + car.parts[0]);
 
+let numArray [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
