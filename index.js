@@ -75,3 +75,6 @@ for (let i = 0; i < numArray.length; i++) {
     document.write("<br>" + i);
 }
 
+numArray.push ("10");
+console.log(numArray);
+document.write("<br>" + numArray);
