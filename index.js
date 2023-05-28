@@ -87,6 +87,19 @@ function removeEven () {
 console.log(oddNum);
 document.write("<br>" + oddNum);
 }
-
 removeEven ();
 
+console.log("The highest number is: " + Math.max(...numArray));
+document.write("<br>The highest number is: " + Math.max(...numArray));
+
+console.log("The lowest number is " + Math.min(...numArray));
+document.write("<br>The lowest number is " + Math.min(...numArray));
+
+let sampleText = "This is a sample text";
+console.log(sampleText.toLowerCase());
+document.write(sampleText.toLowerCase());
+
+console.log(sampleText.toUpperCase());
+document.write(sampleText.toUpperCase());
+
+let nameArray = [];
