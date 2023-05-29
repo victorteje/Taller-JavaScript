@@ -2,7 +2,7 @@ let message = "My age is: ";
 let number = 38;
 let age = message + number;
 console.log(age);
-document.write(age);
+document.write("<br>" + age);
 
 let secondMessage = "Too young to learn JavaScript"
 let actualAge = message + secondMessage;
@@ -85,7 +85,7 @@ function removeEven () {
         if (numArray [i] %2 !== 0) oddNum.push(numArray[i]);
 }
 console.log(oddNum);
-document.write("<br>" + oddNum);
+document.write("<br>The odd numbers are: " + oddNum);
 }
 removeEven ();
 
@@ -113,3 +113,23 @@ nameArray.forEach( (hobbit, upperName) => {
 console.log (nameArray);
 document.write("<br>" + nameArray);
 
+function showMessage (){
+document.getElementById("msgBtn");
+alert("Hi there!");
+}
+
+function changeTitle (){
+    document.getElementById("title").innerHTML = "Welcome";
+}
+
+function hideTitle (){
+    let titleVisibility = document.getElementById("title");
+    if (titleVisibility.style.display === "none") {
+        titleVisibility.style.display = "block";
+      }
+    else {
+        titleVisibility.style.display = "none";
+    }
+}
+
+let ringNames = ["Frodo", "Sam", "Merry", "Pippin", "Gimli", "Legolas", "Boromir", "Aragorn", "Gandalf", "Sauron"];
