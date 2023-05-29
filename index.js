@@ -133,3 +133,10 @@ function hideTitle (){
 }
 
 let ringNames = ["Frodo", "Sam", "Merry", "Pippin", "Gimli", "Legolas", "Boromir", "Aragorn", "Gandalf", "Sauron"];
+console.log (ringNames.toString());
+document.write("<br>" + ringNames.toString());
+
+let numArrayTwo = [1, 2, 3];
+console.log ("This array has " + numArrayTwo.length + " numbers");
+document.write("<br>This array has " + numArrayTwo.length + " numbers");
+
