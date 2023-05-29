@@ -97,9 +97,19 @@ document.write("<br>The lowest number is " + Math.min(...numArray));
 
 let sampleText = "This is a sample text";
 console.log(sampleText.toLowerCase());
-document.write(sampleText.toLowerCase());
+document.write("<br>" + sampleText.toLowerCase());
 
 console.log(sampleText.toUpperCase());
-document.write(sampleText.toUpperCase());
+document.write("<br>" + sampleText.toUpperCase());
 
-let nameArray = [];
+let nameArray = ["frodo", "sam", "merry", "pippin"];
+
+nameArray.forEach( (hobbit, upperName) => {
+    let firstLetter = hobbit.charAt(0).toUpperCase();
+    let otherLetters = hobbit.slice(1).toLowerCase();
+    nameArray [upperName] = firstLetter + otherLetters;
+});
+
+console.log (nameArray);
+document.write("<br>" + nameArray);
+
