@@ -140,3 +140,25 @@ let numArrayTwo = [1, 2, 3];
 console.log ("This array has " + numArrayTwo.length + " numbers");
 document.write("<br>This array has " + numArrayTwo.length + " numbers");
 
+let form = document.getElementById("form");
+// let formName = document.createElement("p");
+// let formNameText = document.createTextNode("Name: ");
+// // let formSurname = document.createElement("p");
+// // let formSurnameText = document.createTextNode("Surname: ");
+// form.appendChild(formName);
+// formName.appendChild(formNameText);
+// // form.appendChild(formSurname);
+// // formName.appendChild(formSurnameText);
+
+// // let formSurname = document.createTextNode("<p>Surname:</p>");
+// form.innerHTML = "<p>Surname:</p>"
+
+// let nameForm = document.createElement("INPUT");
+// nameForm.setAttribute("type","text");
+// nameForm.setAttribute("value", "I hate JS");
+// document.body.appenChild(nameForm);
+
+let formName = document.createElement("INPUT");
+formName.setAttribute("type", "text");
+formName.setAttribute("value", "Name");
+document.body.appendChild(formName);
