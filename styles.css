@@ -4,11 +4,12 @@
 }
 
 body {
-    background-color: thistle;
+    background: linear-gradient(to top right, thistle, antiqueWhite);
 }
 
 h1 {
-    background-color: navajowhite;
+    background: linear-gradient(to bottom left, navajowhite, Orchid);
+    color: navy;
     width: fit-content;
     border-radius: 20px;
     margin: auto;

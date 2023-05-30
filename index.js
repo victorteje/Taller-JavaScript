@@ -141,24 +141,22 @@ console.log ("This array has " + numArrayTwo.length + " numbers");
 document.write("<br>This array has " + numArrayTwo.length + " numbers");
 
 let form = document.getElementById("form");
-// let formName = document.createElement("p");
-// let formNameText = document.createTextNode("Name: ");
-// // let formSurname = document.createElement("p");
-// // let formSurnameText = document.createTextNode("Surname: ");
-// form.appendChild(formName);
-// formName.appendChild(formNameText);
-// // form.appendChild(formSurname);
-// // formName.appendChild(formSurnameText);
+let username = document.createElement("p");
+let usernameText = document.createTextNode("Username: ");
+form.appendChild(username);
+username.appendChild(usernameText);
 
-// // let formSurname = document.createTextNode("<p>Surname:</p>");
-// form.innerHTML = "<p>Surname:</p>"
+let usernameField = document.createElement("INPUT");
+usernameField.setAttribute("type", "text");
+usernameField.setAttribute("value", "Username");
+username.appendChild(usernameField);
 
-// let nameForm = document.createElement("INPUT");
-// nameForm.setAttribute("type","text");
-// nameForm.setAttribute("value", "I hate JS");
-// document.body.appenChild(nameForm);
+let password = document.createElement("p");
+let passwordText = document.createTextNode("Password: ");
+form.appendChild(password);
+username.appendChild(passwordText);
 
-let formName = document.createElement("INPUT");
-formName.setAttribute("type", "text");
-formName.setAttribute("value", "Name");
-document.body.appendChild(formName);
+let passwordField = document.createElement("INPUT");
+passwordField.setAttribute("type", "text");
+passwordField.setAttribute("value", "Password");
+username.appendChild(passwordField);
