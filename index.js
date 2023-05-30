@@ -149,7 +149,6 @@ form.appendChild(usernameText);
 
 let usernameField = document.createElement("input");
 usernameField.setAttribute("type", "text");
-usernameField.setAttribute("value", "");
 form.appendChild(usernameField);
 
 let password = document.createElement("p");
@@ -159,9 +158,12 @@ form.appendChild(passwordText);
 
 let passwordField = document.createElement("input");
 passwordField.setAttribute("type", "password");
-passwordField.setAttribute("value", "");
 form.appendChild(passwordField);
+
+let lineBreak = document.createElement("br");
+form.appendChild(lineBreak);
 
 let formButton = document.createElement("button");
 form.appendChild(formButton);
+// formButton.appendChild(document.createTextNode("Send"))
 formButton.innerText="Send";
