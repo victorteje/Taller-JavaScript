@@ -165,5 +165,5 @@ form.appendChild(lineBreak);
 
 let formButton = document.createElement("button");
 form.appendChild(formButton);
-// formButton.appendChild(document.createTextNode("Send"))
 formButton.innerText="Send";
+
