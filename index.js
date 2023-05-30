@@ -68,11 +68,12 @@ document.write("<br>This car has " + car.numberOfDoors + " doors");
 console.log("A part of this car is: " + car.parts[0]);
 document.write("<br>A part of this car is: " + car.parts[0]);
 
+document.write("<br>");
 let numArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 for (let i = 0; i < numArray.length; i++) {
     console.log(i);
-    document.write("<br>" + i);
+    document.write(i);
 }
 
 numArray.push ("10");
@@ -152,7 +153,7 @@ usernameField.setAttribute("value", "");
 username.appendChild(usernameField);
 
 let password = document.createElement("p");
-let passwordText = document.createTextNode("Password: ");
+let passwordText = document.createTextNode(" Password: ");
 form.appendChild(password);
 username.appendChild(passwordText);
 
@@ -160,3 +161,4 @@ let passwordField = document.createElement("input");
 passwordField.setAttribute("type", "password");
 passwordField.setAttribute("value", "");
 username.appendChild(passwordField);
+
