@@ -162,3 +162,6 @@ passwordField.setAttribute("type", "password");
 passwordField.setAttribute("value", "");
 form.appendChild(passwordField);
 
+let formButton = document.createElement("button");
+form.appendChild(formButton);
+formButton.innerText="Send";
