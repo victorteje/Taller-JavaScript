@@ -146,9 +146,9 @@ let usernameText = document.createTextNode("Username: ");
 form.appendChild(username);
 username.appendChild(usernameText);
 
-let usernameField = document.createElement("INPUT");
+let usernameField = document.createElement("input");
 usernameField.setAttribute("type", "text");
-usernameField.setAttribute("value", "Username");
+usernameField.setAttribute("value", "");
 username.appendChild(usernameField);
 
 let password = document.createElement("p");
@@ -156,7 +156,7 @@ let passwordText = document.createTextNode("Password: ");
 form.appendChild(password);
 username.appendChild(passwordText);
 
-let passwordField = document.createElement("INPUT");
-passwordField.setAttribute("type", "text");
-passwordField.setAttribute("value", "Password");
+let passwordField = document.createElement("input");
+passwordField.setAttribute("type", "password");
+passwordField.setAttribute("value", "");
 username.appendChild(passwordField);
