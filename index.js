@@ -145,20 +145,20 @@ let form = document.getElementById("form");
 let username = document.createElement("p");
 let usernameText = document.createTextNode("Username: ");
 form.appendChild(username);
-username.appendChild(usernameText);
+form.appendChild(usernameText);
 
 let usernameField = document.createElement("input");
 usernameField.setAttribute("type", "text");
 usernameField.setAttribute("value", "");
-username.appendChild(usernameField);
+form.appendChild(usernameField);
 
 let password = document.createElement("p");
-let passwordText = document.createTextNode(" Password: ");
+let passwordText = document.createTextNode("Password: ");
 form.appendChild(password);
-username.appendChild(passwordText);
+form.appendChild(passwordText);
 
 let passwordField = document.createElement("input");
 passwordField.setAttribute("type", "password");
 passwordField.setAttribute("value", "");
-username.appendChild(passwordField);
+form.appendChild(passwordField);
 
