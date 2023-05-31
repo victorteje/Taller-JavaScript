@@ -142,7 +142,7 @@ console.log ("This array has " + numArrayTwo.length + " numbers");
 document.write("<br>This array has " + numArrayTwo.length + " numbers");
 
 let form = document.createElement("form");
-document.body. appendChild(form);
+document.body.appendChild(form);
 
 let username = document.createElement("label");
 username.innerHTML = "Username: ";
@@ -151,7 +151,7 @@ let usernameField = document.createElement("input");
 form.appendChild(usernameField);
 
 let password = document.createElement("label");
-password.innerHTML = " Password: ";
+password.innerHTML = "Password: ";
 form.appendChild(password);
 let passwordField = document.createElement("input");
 form.appendChild(passwordField);
@@ -160,3 +160,37 @@ let formButton = document.createElement("button");
 formButton.innerText="Send";
 form.appendChild(formButton);
 
+let table = document.createElement("table");
+document.body.appendChild(table);
+let heading1 = document.createElement("th");
+heading1.innerHTML= "ID";
+table.appendChild(heading1);
+let heading2 = document.createElement("th");
+heading2.innerHTML= "Name";
+table.appendChild(heading2);
+let heading3 = document.createElement("th");
+heading3.innerHTML= "Status";
+table.appendChild(heading3);
+
+let row1 = document.createElement("tr");
+table.appendChild(row1);
+let cell11 = document.createElement("td");
+row1.appendChild(cell11);
+cell11.innerHTML = "1";
+let cell12 = document.createElement("td");
+row1.appendChild(cell12);
+cell12.innerHTML = "Ana";
+let cell13 = document.createElement("td");
+row1.appendChild(cell13);
+cell13.innerHTML = "Healthy";
+let row2 = document.createElement("tr");
+table.appendChild(row2);
+let cell21 = document.createElement("td");
+row1.appendChild(cell21);
+cell21.innerHTML = "2";
+let cell22 = document.createElement("td");
+row1.appendChild(cell22);
+cell22.innerHTML = "Pablo";
+let cell23 = document.createElement("td");
+row1.appendChild(cell23);
+cell23.innerHTML = "Sick";
