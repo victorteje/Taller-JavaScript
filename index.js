@@ -141,29 +141,22 @@ let numArrayTwo = [1, 2, 3];
 console.log ("This array has " + numArrayTwo.length + " numbers");
 document.write("<br>This array has " + numArrayTwo.length + " numbers");
 
-let form = document.getElementById("form");
-let username = document.createElement("p");
-let usernameText = document.createTextNode("Username: ");
-form.appendChild(username);
-form.appendChild(usernameText);
+let form = document.createElement("form");
+document.body. appendChild(form);
 
+let username = document.createElement("label");
+username.innerHTML = "Username: ";
+form.appendChild(username);
 let usernameField = document.createElement("input");
-usernameField.setAttribute("type", "text");
 form.appendChild(usernameField);
 
-let password = document.createElement("p");
-let passwordText = document.createTextNode("Password: ");
+let password = document.createElement("label");
+password.innerHTML = " Password: ";
 form.appendChild(password);
-form.appendChild(passwordText);
-
 let passwordField = document.createElement("input");
-passwordField.setAttribute("type", "password");
 form.appendChild(passwordField);
 
-let lineBreak = document.createElement("br");
-form.appendChild(lineBreak);
-
 let formButton = document.createElement("button");
-form.appendChild(formButton);
 formButton.innerText="Send";
+form.appendChild(formButton);
 

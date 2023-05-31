@@ -5,6 +5,7 @@
 
 body {
     background: linear-gradient(to top right, thistle, antiqueWhite);
+    background-attachment: fixed;
 }
 
 h1 {
@@ -21,4 +22,8 @@ button {
     border-radius: 24px;
     padding: 0 1%;
     filter: drop-shadow(1px 1px 1px black);
+}
+
+section button {
+    font-weight: bold;
 }
